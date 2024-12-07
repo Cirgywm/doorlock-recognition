@@ -1,5 +1,4 @@
 # Automatic Door Lock Security System with Face Recognition Using MobileNetV3 Small and Arduino UNO
-![image](https://github.com/user-attachments/assets/f40eee1b-2c57-459f-9c08-33717252f2ba)
 
 ## Project Domain
 This project is an access control system using facial recognition with an Arduino UNO and a MobileNetV3 Small based model architecture.
@@ -22,6 +21,7 @@ This project is an access control system using facial recognition with an Arduin
 
 ## Prerequisites
 ### Component Preparation
+
 - **Arduino UNO**: Microcontroller for processing facial recognition results and controlling the system.
 - **5V Relay Module**: Switches the solenoid door lock based on recognition results.
 - **Solenoid Door Lock**: Secures the door, unlocking only for authorized individuals.
@@ -30,3 +30,13 @@ This project is an access control system using facial recognition with an Arduin
 - **12V Power Supply**: Powers the solenoid door lock and other components.
 
 ### System Schematic
+![WhatsApp Image 2024-12-02 at 12 40 34_531ea401](https://github.com/user-attachments/assets/1bf02ffb-beda-4627-8bf4-b76df8da306c)
+
+### System State Diagram
+- **Edge Gateway**
+
+![image](https://github.com/user-attachments/assets/b05f42f8-f6e7-4f43-9655-ecdf67832d53)
+
+- **Edge Device**
+
+![image](https://github.com/user-attachments/assets/be3ec3f7-22bb-42bf-8d1f-de9076a42344)
