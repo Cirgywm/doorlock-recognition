@@ -40,3 +40,13 @@ This project is an access control system using facial recognition with an Arduin
 - **Edge Device**
 
 ![image](https://github.com/user-attachments/assets/be3ec3f7-22bb-42bf-8d1f-de9076a42344)
+
+## Demo and Evaluation
+- **Setup**: Connect all components as per the wiring diagram and run the final code blok on the .ipynb file.
+- **Demo**: Demonstrate real-time face recognition of authorized and people, along with automatic solenoid door lock opening.
+- **Evaluation**: Test the system with different faces and evaluate the prediction scores.
+
+### Real-time Face Recognition
+| ![WhatsApp Image 2024-12-07 at 17 30 25_ff744b9f](https://github.com/user-attachments/assets/bce25ab8-44f5-4fd3-bb79-4ca32cd8554e) | ![WhatsApp Image 2024-12-07 at 17 32 27_385936e0](https://github.com/user-attachments/assets/00f9f7ce-a95c-4714-b6ab-0e4b099be4cd) |
+| ----------- | ----------- |
+| ![WhatsApp Image 2024-12-07 at 17 33 28_7b4f9bf3](https://github.com/user-attachments/assets/c8670246-6cf9-4315-b159-68ae1481f058) | ![WhatsApp Image 2024-12-07 at 17 34 00_882837fd](https://github.com/user-attachments/assets/c20ebeb5-ec6c-4192-a899-559a1b1aadc7) |
