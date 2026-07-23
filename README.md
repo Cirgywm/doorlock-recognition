@@ -1,4 +1,5 @@
 # Automatic Door Lock Security System with Face Recognition Using MobileNetV3 Small and Arduino UNO
+![WhatsApp Image 2024-12-07 at 19 18 07_944e0310](https://github.com/user-attachments/assets/de7167b2-3a39-469e-84ac-ed8e91d08938)
 
 ## Project Domain
 This project is an access control system using facial recognition with an Arduino UNO and a MobileNetV3 Small based model architecture.
@@ -20,6 +21,21 @@ This project is an access control system using facial recognition with an Arduin
 - Include a solenoid door lock to grant or deny physical access based on recognition results.
 - Employ a confidence-based rejection system to mark unrecognized faces and deny access.
 
+
+## Edge System Planning
+### Edge System Diagram
+![edge system](https://github.com/Ach111es/doorlock-recognition/blob/f8b011c886d6996db2c93a42fb08dda7257aa94b/assets/edge_diagram.png)
+
+### System State Diagram
+- **Edge Gateway**
+
+![edge gateway state diagram](https://github.com/Ach111es/doorlock-recognition/blob/f8b011c886d6996db2c93a42fb08dda7257aa94b/assets/state_diagram_gateway.png)
+
+- **Edge Device**
+
+![edge device state diagram](https://github.com/Ach111es/doorlock-recognition/blob/f8b011c886d6996db2c93a42fb08dda7257aa94b/assets/state_diagram_doorlock.png)
+
+
 ## Prerequisites
 ### Component Preparation
 
@@ -28,19 +44,14 @@ This project is an access control system using facial recognition with an Arduin
 - **Solenoid Door Lock**: Secures the door, unlocking only for authorized individuals.
 - **Camera**: Captures facial images for recognition.
 - **Buzzer**: Provides audio alerts for access status (granted/denied).
-- **12V Power Supply**: Powers the solenoid door lock and other components.
+- **12V Power Supply**: External power for solenoid door lock.
+
+### Datasheet Arduino Uno R3
+![arduino uno r3 datasheet](https://github.com/Ach111es/doorlock-recognition/blob/f8b011c886d6996db2c93a42fb08dda7257aa94b/assets/ArduinoUNOrev3.png)
 
 ### System Schematic
-![WhatsApp Image 2024-12-02 at 12 40 34_531ea401](https://github.com/user-attachments/assets/1bf02ffb-beda-4627-8bf4-b76df8da306c)
+![system schematic](https://github.com/Ach111es/doorlock-recognition/blob/f8b011c886d6996db2c93a42fb08dda7257aa94b/assets/Schematic_HomeSecurity.png)
 
-### System State Diagram
-- **Edge Gateway**
-
-![image](https://github.com/user-attachments/assets/b05f42f8-f6e7-4f43-9655-ecdf67832d53)
-
-- **Edge Device**
-
-![image](https://github.com/user-attachments/assets/be3ec3f7-22bb-42bf-8d1f-de9076a42344)
 
 ## Demo and Evaluation
 - **Setup**: Connect all components as per the wiring diagram and run the final code blok on the .ipynb file.
@@ -51,3 +62,9 @@ This project is an access control system using facial recognition with an Arduin
 | ![WhatsApp Image 2024-12-07 at 17 30 25_ff744b9f](https://github.com/user-attachments/assets/bce25ab8-44f5-4fd3-bb79-4ca32cd8554e) | ![WhatsApp Image 2024-12-07 at 17 32 27_385936e0](https://github.com/user-attachments/assets/00f9f7ce-a95c-4714-b6ab-0e4b099be4cd) |
 | ----------- | ----------- |
 | ![WhatsApp Image 2024-12-07 at 17 33 28_7b4f9bf3](https://github.com/user-attachments/assets/c8670246-6cf9-4315-b159-68ae1481f058) | ![WhatsApp Image 2024-12-07 at 17 34 00_882837fd](https://github.com/user-attachments/assets/c20ebeb5-ec6c-4192-a899-559a1b1aadc7) |
+
+### Door Lock System
+
+*Click the embedded youtube video below to watch
+
+[![Demo Video](https://img.youtube.com/vi/VgoxX6TS_PM/0.jpg)](https://www.youtube.com/watch?v=VgoxX6TS_PM)
