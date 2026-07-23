@@ -16,7 +16,8 @@ This project is an access control system using facial recognition with an Arduin
 
 ### Solution Statements
 - Integrate a camera or webcam for capturing facial images for recognition.
-- Use an Arduino UNO to control the system and process facial recognition.
+- PC side to process the vision model.
+- Microcontroller side (Arduino UNO) to control the system and process the results of facial recognition.
 - Include a solenoid door lock to grant or deny physical access based on recognition results.
 - Employ a confidence-based rejection system to mark unrecognized faces and deny access.
 
